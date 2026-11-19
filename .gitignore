@@ -1,0 +1,10 @@
+node_modules/
+.claude/
+# חומרי מקור – לא לפרסום. האתר מתפרסם רק מ-docs/
+reference/
+sources-cache/
+# קבצים שנשארו בתיקייה הראשית (מקור, צילומים, קבצי בדיקה)
+/*.pdf
+/*.jpg
+/*.jpeg
+/*.png

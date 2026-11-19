@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>נספח ג׳ דיגיטלי – מעטפת הולמת</title>
+  <meta name="description" content="מילוי נספח ג׳, הצהרה על היעדרות, בדפדפן והורדת PDF למכשיר.">
+  <link rel="icon" href="assets/img/logo-taatz.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo-taatz.png" alt="סמל מרכז תע״ץ" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">מעטפת הולמת</span>
+          <span class="brand-sub">מעטפת הפרט להורים לילדים עם מוגבלות</span>
+        </span>
+      </a>
+      <a class="header-support" href="tmicha.html">תמיכה וסיוע</a>
+    </div>
+    <nav class="main-nav" aria-label="ניווט ראשי">
+      <ul class="container">
+        <li><a href="index.html">דף הבית</a></li>
+        <li><a href="hakara.html">הכרה כהורה</a></li>
+        <li><a href="headrut.html">שעות וימי היעדרות</a></li>
+        <li><a href="divuach.html">איך מדווחים</a></li>
+        <li><a href="tfasim.html">טפסים להורדה</a></li>
+        <li><a href="nispach-g.html" aria-current="page">נספח ג׳ דיגיטלי</a></li>
+        <li><a href="tmicha.html">תמיכה וסיוע</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="container">
+      <p class="breadcrumbs"><a href="index.html">דף הבית</a> › <a href="divuach.html">איך מדווחים</a> › נספח ג׳ דיגיטלי</p>
+      <h1>מילוי נספח ג׳ ושמירה כתמונה או PDF</h1>
+      <p class="hint">נספח ג׳ – הצהרה על היעדרות, לפי הוראה 80‑36</p>
+      <p class="lead">ממלאים בדפדפן, חותמים ושומרים במכשיר. לדיווח ב־PUNCH IT או בלביא WEB שומרים <strong>כתמונה</strong>, כי שם מעלים תמונה ולא PDF. ממלאים הצהרה נפרדת לכל היעדרות.</p>
+
+      <div class="btn-row">
+        <a class="btn secondary" href="forms/80-36-nispach-c.pdf" download="נספח-ג-הצהרה-על-היעדרות-ריק.pdf">הורדת הטופס הריק</a>
+        <a class="btn subtle" href="https://m.www.idf.il/media/0qfb03jf/80-36.pdf#page=9" rel="noopener">הנספח בהוראה המקורית</a>
+      </div>
+
+      <div class="privacy-box">
+        <p><strong>הפרטים נשארים במכשיר שלכם.</strong> ההקלדה והפקת ה־PDF נעשות בדפדפן בלבד. הפרטים לא נשלחים לרשת ולא נשמרים באתר. כשסוגרים את הדף או לוחצים ״איפוס״, הם נמחקים.</p>
+      </div>
+
+      <noscript>
+        <div class="note important"><p><span class="note-label">נדרש JavaScript:</span> כדי למלא בדפדפן צריך לאפשר JavaScript. אפשר גם להוריד את הטופס הריק.</p></div>
+      </noscript>
+
+      <div class="form-layout">
+        <form id="annex-c-form" novalidate autocomplete="off" aria-describedby="form-intro">
+          <p id="form-intro">כל השדות חובה. פורמט התאריך יום/חודש/שנה.</p>
+
+          <div id="error-summary" class="error-summary" tabindex="-1" hidden>
+            <h2 id="error-summary-title">יש לתקן את השדות הבאים</h2>
+            <ul id="error-list"></ul>
+          </div>
+
+          <fieldset id="status-group" aria-describedby="status-hint status-error">
+            <legend>מעמד ההורה או המטפל</legend>
+            <div class="field">
+              <span class="hint" id="status-hint">בוחרים את ההגדרה הרלוונטית, כמו בנספח.</span>
+              <div class="radio-group">
+                <label><input type="radio" name="status" id="status-parent" value="הורה"> הורה</label>
+                <label><input type="radio" name="status" id="status-guardian" value="אפוטרופוס"> אפוטרופוס</label>
+                <label><input type="radio" name="status" id="status-foster" value="הורה במשפחת אומנה"> הורה במשפחת אומנה</label>
+              </div>
+              <span class="error" id="status-error"></span>
+            </div>
+            <p class="hint" id="status-extra" hidden>אפוטרופוס או הורה במשפחת אומנה מצרפים גם את <a href="forms/80-36-nispach-e.pdf" download="נספח-ה-אפוטרופוס-או-אומנה.pdf">נספח ה׳</a> ואת האישור הרשמי.</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>פרטי העובד</legend>
+            <div class="field">
+              <label for="emp-name">שם ושם משפחה</label>
+              <input type="text" id="emp-name" data-field="empName" aria-describedby="emp-name-error" maxlength="60" spellcheck="false">
+              <span class="error" id="emp-name-error"></span>
+            </div>
+            <div class="field">
+              <label for="emp-id">מספר זהות</label>
+              <span class="hint" id="emp-id-hint">9 ספרות, כולל ספרת ביקורת</span>
+              <input type="text" id="emp-id" data-field="empId" inputmode="numeric" maxlength="9" dir="ltr" aria-describedby="emp-id-hint emp-id-error">
+              <span class="error" id="emp-id-error"></span>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>פרטי ההיעדרות</legend>
+            <div class="field">
+              <label for="abs-date">תאריך ההיעדרות</label>
+              <input type="date" id="abs-date" data-field="absDate" aria-describedby="abs-date-error">
+              <span class="error" id="abs-date-error"></span>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="abs-from">משעה</label>
+                <input type="time" id="abs-from" data-field="absFrom" aria-describedby="abs-time-hint abs-from-error">
+                <span class="error" id="abs-from-error"></span>
+              </div>
+              <div class="field">
+                <label for="abs-to">עד שעה</label>
+                <input type="time" id="abs-to" data-field="absTo" aria-describedby="abs-time-hint abs-to-error">
+                <span class="error" id="abs-to-error"></span>
+              </div>
+            </div>
+            <p class="hint" id="abs-time-hint">בהיעדרות של יום מלא, רושמים את שעות יום העבודה שלכם.</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>פרטי האדם עם מוגבלות</legend>
+            <div class="field">
+              <label for="child-name">שם ושם משפחה</label>
+              <input type="text" id="child-name" data-field="childName" aria-describedby="child-name-error" maxlength="60" spellcheck="false">
+              <span class="error" id="child-name-error"></span>
+            </div>
+            <div class="field">
+              <label for="child-id">מספר זהות</label>
+              <span class="hint" id="child-id-hint">9 ספרות, כולל ספרת ביקורת</span>
+              <input type="text" id="child-id" data-field="childId" inputmode="numeric" maxlength="9" dir="ltr" aria-describedby="child-id-hint child-id-error">
+              <span class="error" id="child-id-error"></span>
+            </div>
+            <div class="field">
+              <label for="child-dob">תאריך לידה</label>
+              <input type="date" id="child-dob" data-field="childDob" aria-describedby="child-dob-error">
+              <span class="error" id="child-dob-error"></span>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>תאריך ההצהרה וחתימה</legend>
+            <div class="field">
+              <label for="decl-date">תאריך</label>
+              <input type="date" id="decl-date" data-field="declDate" aria-describedby="decl-date-error">
+              <span class="error" id="decl-date-error"></span>
+            </div>
+            <div class="field">
+              <span class="label" id="sig-label">חתימה</span>
+              <span class="hint" id="sig-hint">חתמו בתוך המסגרת באצבע, בעט מגע או בעכבר. החתימה תופיע בשדה החתימה בקובץ. אפשר גם להשאיר את המסגרת ריקה ולחתום ידנית על הטופס המודפס.</span>
+              <div class="sig-wrap">
+                <canvas id="sig-pad" class="sig-pad" role="img" aria-labelledby="sig-label" aria-describedby="sig-hint sig-state"></canvas>
+                <span class="sig-baseline" aria-hidden="true"></span>
+              </div>
+              <div class="sig-actions">
+                <button type="button" class="btn subtle" id="sig-clear">ניקוי החתימה</button>
+                <span class="sig-state" id="sig-state" aria-live="polite">המסגרת ריקה</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="btn-row">
+            <button type="button" class="btn secondary" id="btn-preview">תצוגה מקדימה</button>
+            <button type="button" class="btn" id="btn-image">שמירה כתמונה</button>
+            <button type="button" class="btn secondary" id="btn-download">שמירה כ־PDF</button>
+            <button type="button" class="btn subtle" id="btn-reset">איפוס</button>
+          </div>
+          <p class="status-msg" id="status" role="status" aria-live="polite"></p>
+          <p class="hint">הקובץ נשמר במכשיר שלכם. את התמונה מעלים לדיווח ב־PUNCH IT או בלביא WEB. את ה־PDF אפשר להדפיס או להעביר לקצין משא״ן ע״צ.</p>
+        </form>
+
+        <section class="preview-panel" aria-labelledby="preview-title">
+          <h2 id="preview-title">תצוגה מקדימה</h2>
+          <div class="preview-box" id="preview" tabindex="-1">
+            <p class="preview-empty">לחצו ״תצוגה מקדימה״ כדי לראות את נוסח ההצהרה עם הפרטים שמילאתם.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="credit">פותח על ידי מדור הדרכה מרכז תע״ץ</p>
+        <p>המידע באתר מבוסס על הוראה 80‑36 ״הורה לילד עם מוגבלות״ (נוסח 29/04/2025).</p>
+        <p><a href="https://m.www.idf.il/media/0qfb03jf/80-36.pdf" rel="noopener">להוראה 80‑36 באתר צה״ל</a></p>
+      </div>
+      <img src="assets/img/logo-taatz.png" alt="" width="54" height="54">
+    </div>
+  </footer>
+  <script src="assets/js/nispach-g.js" defer></script>
+</body>
+</html>

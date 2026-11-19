@@ -1,0 +1,14 @@
+{
+  "name": "maatefet-holemet",
+  "private": true,
+  "description": "אתר סטטי: מעטפת הולמת – זכויות בעבודה להורים לילדים עם מוגבלות",
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.mjs 8080 maatefet-holemet",
+    "check": "node tools/check-site.mjs",
+    "split-annexes": "node tools/split-annexes.mjs sources-cache/80-36.pdf"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1"
+  }
+}
