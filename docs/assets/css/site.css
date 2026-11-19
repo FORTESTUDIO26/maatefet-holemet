@@ -370,3 +370,15 @@ legend { font-weight: 800; color: var(--navy); padding: 0 .4rem; font-size: 1.15
 @media (min-width: 760px) {
   .guide-step { grid-template-columns: minmax(0, 1fr) 220px; align-items: start; }
 }
+
+/* הידעת? – תיבה בולטת עם מסגרת אדומה */
+.did-you-know {
+  border: 3px solid var(--wine); background: #FFF7F9; border-radius: var(--radius);
+  padding: .9rem 1.1rem; margin: 1rem 0; max-width: 70ch;
+}
+.did-you-know-title { font-weight: 800; color: var(--wine); font-size: 1.15rem; margin: 0 0 .35rem; }
+.did-you-know > :last-child { margin-bottom: 0; }
+
+/* הדגשת תנאי ההעברה מבן או בת זוג */
+.key-rule { color: var(--wine); }
+.key-rule-box { border-inline-start: 4px solid var(--wine); background: var(--pink-soft); padding: .5rem .75rem; border-radius: 6px; font-weight: 700; color: var(--ink); }
